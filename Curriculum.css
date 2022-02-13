@@ -1,0 +1,107 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgb(201, 199, 199);
+    
+}
+
+
+.fotosRedes{
+max-width: 50px;
+max-height: 100px;
+}
+
+#foto{
+    border-radius: 50px;
+    max-width: 140px;
+    max-height: 140px;
+    display: flex; 
+    
+}
+
+#cajaFoto{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 15px;
+    background-color:rgb(156, 156, 156);
+    align-items: center;
+
+}
+
+#cajaPersonalTitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+#Nombre{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#Profesion{
+    font-size: 35px;
+    color: rgb(54, 54, 54);
+}
+
+#cajaSegundaFila{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    
+    background-color: rgb(201, 199, 199);
+    justify-content: space-evenly ;
+    
+
+    
+
+}
+
+#cajaInfoPersonal{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    
+    
+
+    /* justify-content: center; */
+}
+
+
+
+#redesSociales{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.fotosPeque{
+    
+    width: 15px;
+    height: 15px;
+}
+
+.divisores{
+    padding: 2px;
+    margin: 2px;
+    border-bottom: solid black 2px;
+    padding-bottom: 5px;
+
+}
+
+#formacion{
+    padding-top: 5px;
+}
+
+#listaFormacion{
+    list-style-type: disc ;
+
+}
