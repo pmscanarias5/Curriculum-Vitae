@@ -56,22 +56,71 @@ max-height: 100px;
     
     background-color: rgb(201, 199, 199);
     justify-content: space-evenly ;
-    
+    padding-top: 20px;
 
-    
+}
 
+
+@media(max-width: 1000px){
+    #cajaFoto{
+        flex-direction: column;
+    }
+    .divisores{
+        padding: 30px;
+    }
+    
+    #foto{
+        max-width: 200px;
+        max-height: 200px;
+
+    }
+    #redesSociales{
+        flex-direction: row;
+    }
+    #cajaSegundaFila{
+        flex-direction: column;
+    }
+    #cajaInfoPersonal{
+        align-items: left;
+        margin: 20px ;
+    }
+    body{
+        font-size:xx-large;
+    }
+    h3{
+        font-size: 50px;
+    }
+    h6{
+        font-size: 35px;
+    }
+    h1{
+        font-size: 65px;
+    }
 }
 
 #cajaInfoPersonal{
     display: flex;
     flex-direction: column;
-    padding: 2px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgb(194, 194, 194);
+    margin-right: 15px;
     
     
 
     /* justify-content: center; */
 }
 
+#cajaExperiencia{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgb(194, 194, 194);
+    
+}
 
 
 #redesSociales{
@@ -104,4 +153,25 @@ max-height: 100px;
 #listaFormacion{
     list-style-type: disc ;
 
+
+}
+#listaInteres{
+    list-style-type: square;
+}
+
+.elementoLista{
+
+    padding-bottom: 5px;
+}
+
+#informacionInteres{
+    border: none;
+}
+
+#listaLaboral{
+    list-style-type: circle;
+}
+
+#divisorInvestigaciones{
+    border: none;
 }
