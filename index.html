@@ -20,9 +20,9 @@
                 <p id="Profesion" style="padding-left: 7px;"> Técnico GIS</p>
             </div>
             <div id="redesSociales">
-                <img src="..\lkd.png" alt="Linkedin"  style="height: 25px; padding-bottom: 8px;" class="fotosRedes" > 
-                <img src="..\github.png" alt="github"  style="width: 70px; height: 30px; padding-bottom: 3px;"; class="fotosRedes"> 
-                <img src="..\twitter.png" alt="twitter" class="fotosRedes" style="height: 35px; width: 35px; padding-top: 2px;">  
+                <a href="https://www.linkedin.com/in/pedro-mart%C3%ADn-977032137" target="blank"><img src="..\lkd.png" alt="Linkedin"  class="fotosRedes" id="linkedin"></a> 
+                <a href="https://github.com/pmscanarias5" target="blank"><img src="..\github.png" alt="github"  class="fotosRedes" id="github"></a> 
+                <a href="https://twitter.com/?lang=es" target="blank"><img src="..\twitter.png" alt="twitter" class="fotosRedes"  id="twitter"></a>  
     
             </div>
             
@@ -32,7 +32,7 @@
             
         </div>
 
-        <div id="cajaSegundaFila" > 
+        <div id="cajaSegundaFila" class="grandesCajas" > 
             <div id="cajaInfoPersonal">
                 <div id="personal" class="divisores">
                     <h3>Información personal</h3>
@@ -61,7 +61,7 @@
 
 
             </div>
-            <div id="cajaExperiencia">
+            <div id="cajaExperiencia" class="grandesCajas">
                 
                 <div id="divisorExperiencia" class="divisores">
                     <h3>Experiencia laboral</h3>
@@ -92,15 +92,26 @@
         </div>
 
         <div id="cajaTerceraFila">
-            <iframe src="" frameborder="0"></iframe>
+            <button id="boton" onclick="mostrarMapas()">Mostrar algunos mapas desarrollados</button>
+            <div id="mapas" style="display: none;">
+                <div id="primeraLineaMapas" class="lineaMapa">
+                    <img src="1a Ola RentaPrueba.jpg" alt="Mapa1" class="mapas" >
 
+                    <img src="1a Ola RentaPrueba.jpg" alt="Mapa1" class="mapas" >
+                </div>
+                <div id="segundaLineaMapas" class="lineaMapa">
+                    <img src="BuiltUpArea_Mapa.jpg" alt="Mapa2" class="mapas" >
+                    <img src="Transporte_0.jpg" alt="Mapa3" class="mapas" >
 
+                </div>
+
+            </div>  
         </div>
 
 
 
 
-        
+        <script src="curriculum.js"></script>
 
     </body>
 
